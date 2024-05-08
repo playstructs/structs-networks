@@ -2,7 +2,8 @@
   "chain_id": "structstestnet-88",
   "app_name": "structsd",
   "app_version": "0.2.0-beta",
-  "app_message": {
+  "genesis_time": "2024-04-30T20:44:50.764812Z",
+  "app_state": {
     "06-solomachine": null,
     "07-tendermint": null,
     "auth": {
@@ -1940,5 +1941,29 @@
     },
     "upgrade": {},
     "vesting": {}
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "0"
+      }
+    }
   }
 }
