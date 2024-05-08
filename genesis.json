@@ -1,8 +1,10 @@
 {
-  "chain_id": "structstestnet-88",
   "app_name": "structsd",
   "app_version": "0.2.0-beta",
   "genesis_time": "2024-04-30T20:44:50.764812Z",
+  "chain_id": "structstestnet-88",
+  "initial_height": 1,
+  "app_hash": null,
   "app_state": {
     "06-solomachine": null,
     "07-tendermint": null,
@@ -1857,4 +1859,3 @@
     }
   }
 }
-
