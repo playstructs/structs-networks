@@ -1,5 +1,7 @@
 {
   "chain_id": "structstestnet-88",
+  "app_name": "structsd",
+  "app_version": "0.2.0-beta",
   "app_message": {
     "06-solomachine": null,
     "07-tendermint": null,
