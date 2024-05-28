@@ -1,8 +1,8 @@
 {
   "app_name": "structsd",
-  "app_version": "0.2.0-beta",
+  "app_version": "0.3.0-beta",
   "genesis_time": "2024-04-30T20:44:50.764812Z",
-  "chain_id": "structstestnet-88",
+  "chain_id": "structstestnet-97",
   "initial_height": 1,
   "app_hash": null,
   "app_state": {
@@ -268,6 +268,48 @@
           "pub_key": null,
           "account_number": "35",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs13nwzm5dfd26ue74jr6sc39gyn3qze0rjr9l9fz",
+          "pub_key": null,
+          "account_number": "36",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs179gzkz37879ewl4czm0n3y2s5q7c6mas62x3jd",
+          "pub_key": null,
+          "account_number": "37",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1ep3m0rnxazl2gpxgxph2mh235q3lkp762txata",
+          "pub_key": null,
+          "account_number": "38",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1euwmsl65mdmur8nhwqll9g5za85z56fa2j7aj3",
+          "pub_key": null,
+          "account_number": "39",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1kyque8z0qsvuswhuas9m2uvafte66n7fka2hhh",
+          "pub_key": null,
+          "account_number": "40",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1rhtmukgtdqwl6wru4htv7kewwrr25se93rrnmr",
+          "pub_key": null,
+          "account_number": "41",
+          "sequence": "0"
         }
       ]
     },
@@ -300,6 +342,15 @@
         },
         {
           "address": "structs1p4kydpytjzxdq0wvnwu95mwuet3rssj03arj7x",
+          "coins": [
+            {
+              "denom": "alpha",
+              "amount": "100"
+            }
+          ]
+        },
+        {
+          "address": "structs1rhtmukgtdqwl6wru4htv7kewwrr25se93rrnmr",
           "coins": [
             {
               "denom": "alpha",
@@ -389,6 +440,15 @@
           ]
         },
         {
+          "address": "structs13nwzm5dfd26ue74jr6sc39gyn3qze0rjr9l9fz",
+          "coins": [
+            {
+              "denom": "alpha",
+              "amount": "100"
+            }
+          ]
+        },
+        {
           "address": "structs1jgyy6zdzx8rj579vejgw4x8h6vkj9nnrr8n44f",
           "coins": [
             {
@@ -452,6 +512,15 @@
           ]
         },
         {
+          "address": "structs1kyque8z0qsvuswhuas9m2uvafte66n7fka2hhh",
+          "coins": [
+            {
+              "denom": "alpha",
+              "amount": "100"
+            }
+          ]
+        },
+        {
           "address": "structs1k93sj5zvk0lx9g7dtk8hfe6mpx6aqk52459j3q",
           "coins": [
             {
@@ -507,6 +576,24 @@
         },
         {
           "address": "structs1ch8p2mje28yevt5hrwxscxcvmrjak7jl68dr7f",
+          "coins": [
+            {
+              "denom": "alpha",
+              "amount": "100"
+            }
+          ]
+        },
+        {
+          "address": "structs1ep3m0rnxazl2gpxgxph2mh235q3lkp762txata",
+          "coins": [
+            {
+              "denom": "alpha",
+              "amount": "100"
+            }
+          ]
+        },
+        {
+          "address": "structs1euwmsl65mdmur8nhwqll9g5za85z56fa2j7aj3",
           "coins": [
             {
               "denom": "alpha",
@@ -578,6 +665,15 @@
           ]
         },
         {
+          "address": "structs179gzkz37879ewl4czm0n3y2s5q7c6mas62x3jd",
+          "coins": [
+            {
+              "denom": "alpha",
+              "amount": "100"
+            }
+          ]
+        },
+        {
           "address": "structs17x34ltrpketrkczpnftw5ggte72qflug5q4u7m",
           "coins": [
             {
@@ -608,7 +704,7 @@
       "supply": [
         {
           "denom": "alpha",
-          "amount": "4200"
+          "amount": "4800"
         }
       ],
       "denom_metadata": [],
@@ -685,15 +781,15 @@
                 "validator_address": "structsvaloper1ul8sd7nk573aw2gyzzwn2ahxqzrq0qg7f8g7t2",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "fgcKaP7iSte3QWBPbCRALoT5LCdidI8I9f8c1uL3dlw="
+                  "key": "PDiZBCx4Tg9m8dYz268yHmdE6Y4DY56tguFOrXiUF5M="
                 },
                 "value": {
                   "denom": "alpha",
-                  "amount": "1000"
+                  "amount": "300"
                 }
               }
             ],
-            "memo": "605886634736003095e841b03736a214f5111ffe@155.138.142.145:26656",
+            "memo": "f9ff152e331904924c26a4f8b1f46e859d574342@155.138.142.145:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -722,7 +818,7 @@
             "tip": null
           },
           "signatures": [
-            "m/kKYDLnCtZUeeKikgQhH0E0oS8wQbQO9gbi1fCC0RojOvasob1j/mRO01W50ft57HgRedC0lKUlkH9lv1i4Fg=="
+            "019W0PazpTmalzo8WhzeyEefZcprEwdaGd/0YRnVopEYaxRIELvAoNae8RDhWPPLB6HSjjpw9P2Ee/vAdIyVkw=="
           ]
         }
       ]
