@@ -1,8 +1,8 @@
 {
   "app_name": "structsd",
-  "app_version": "0.6.0-beta",
-  "genesis_time": "2025-03-16T01:23:45.764812Z",
-  "chain_id": "structstestnet-101",
+  "app_version": "0.7.0-beta",
+  "genesis_time": "2025-07-22T01:23:45.764812Z",
+  "chain_id": "structstestnet-102",
   "initial_height": 1,
   "app_hash": null,
   "app_state": {
@@ -422,6 +422,83 @@
           "pub_key": null,
           "account_number": "57",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1725ank8jmflm2s98hccrhzj8amh7wfa8jjpcqc",
+          "pub_key": null,
+          "account_number": "58",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs198aj0yn8dnla6xp2846g264cvq4ftwdq799ve9",
+          "pub_key": null,
+          "account_number": "59",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs19t58n0egzqgsez9h0s0hj625dtuxgseeh5ck78",
+          "pub_key": null,
+          "account_number": "60",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1df89weyhnn2asrxd5zyrj45jhkrj2rkqjpy6uu",
+          "pub_key": null,
+          "account_number": "61",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1kl3ux496ahfetht0zz3dyvqeymhvnlft6zpqsl",
+          "pub_key": null,
+          "account_number": "62",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1mqhp5yxjqsnfa0ht2ltpn964aur3zc4ese7d4x",
+          "pub_key": null,
+          "account_number": "63",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1rc02va8cacp4z6s7eylvgupxfd8zlkdc8s2xeh",
+          "pub_key": null,
+          "account_number": "64",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1s6nvkp5gre56h885qj36xhs77uhtfs7rjzzqqz",
+          "pub_key": null,
+          "account_number": "65",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1ualvel6ae303kh9feyefj208k8w9hh9vg0xs8w",
+          "pub_key": null,
+          "account_number": "66",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1yf0yccx3837qpkre5n3druxex6edexz92p7xsp",
+          "pub_key": null,
+          "account_number": "67",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1zc23ftl7r6fs3ku75q4jajhp6xljlhj99mkq8h",
+          "pub_key": null,
+          "account_number": "68",
+          "sequence": "0"
         }
       ]
     },
@@ -480,7 +557,25 @@
           ]
         },
         {
+          "address": "structs1zc23ftl7r6fs3ku75q4jajhp6xljlhj99mkq8h",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
           "address": "structs1rhtmukgtdqwl6wru4htv7kewwrr25se93rrnmr",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
+          "address": "structs1rc02va8cacp4z6s7eylvgupxfd8zlkdc8s2xeh",
           "coins": [
             {
               "denom": "ualpha",
@@ -507,6 +602,15 @@
           ]
         },
         {
+          "address": "structs1yf0yccx3837qpkre5n3druxex6edexz92p7xsp",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
           "address": "structs1yng4ham2mcgmn66skwvx9zn6wzdnlnhgyuxtda",
           "coins": [
             {
@@ -517,6 +621,24 @@
         },
         {
           "address": "structs1ya3rus7qtrfm0mgqa4wccnr35xy4ujd867aran",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
+          "address": "structs198aj0yn8dnla6xp2846g264cvq4ftwdq799ve9",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
+          "address": "structs19t58n0egzqgsez9h0s0hj625dtuxgseeh5ck78",
           "coins": [
             {
               "denom": "ualpha",
@@ -597,6 +719,15 @@
           ]
         },
         {
+          "address": "structs1df89weyhnn2asrxd5zyrj45jhkrj2rkqjpy6uu",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
           "address": "structs1dtk52h60u37869y25avg6p6e4530v9zuyn70cz",
           "coins": [
             {
@@ -643,6 +774,15 @@
         },
         {
           "address": "structs1ss3vw9n6u5zmzy34relau38pdfu58f5wg3u2ny",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
+          "address": "structs1s6nvkp5gre56h885qj36xhs77uhtfs7rjzzqqz",
           "coins": [
             {
               "denom": "ualpha",
@@ -759,6 +899,15 @@
           ]
         },
         {
+          "address": "structs1kl3ux496ahfetht0zz3dyvqeymhvnlft6zpqsl",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
           "address": "structs1hxxpe0agpp7yk8j8cdj8yass48uh0s5whgjyga",
           "coins": [
             {
@@ -840,6 +989,15 @@
           ]
         },
         {
+          "address": "structs1mqhp5yxjqsnfa0ht2ltpn964aur3zc4ese7d4x",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
           "address": "structs1m0alrm592xn5ws92w09wz4yyk5j8kcx0ylse5l",
           "coins": [
             {
@@ -872,6 +1030,15 @@
             {
               "denom": "ualpha",
               "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "structs1ualvel6ae303kh9feyefj208k8w9hh9vg0xs8w",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
             }
           ]
         },
@@ -939,6 +1106,15 @@
           ]
         },
         {
+          "address": "structs1725ank8jmflm2s98hccrhzj8amh7wfa8jjpcqc",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
           "address": "structs1l8hkkj2sds7xg6x6ksdg6mcy0q3zprm5dskrkk",
           "coins": [
             {
@@ -960,10 +1136,45 @@
       "supply": [
         {
           "denom": "ualpha",
-          "amount": "16000000000"
+          "amount": "17100000000"
         }
       ],
-      "denom_metadata": [],
+      "denom_metadata": [
+        {
+          "description": "Alpha Matter, the most powerful material in the Structs universe",
+          "denom_units": [
+            {
+              "denom": "ualpha",
+              "exponent": 0,
+              "aliases": [
+                "microaalpha",
+                "microgram"
+              ]
+            },
+            {
+              "denom": "malpha",
+              "exponent": 3,
+              "aliases": [
+                "millialpha",
+                "milligram"
+              ]
+            },
+            {
+              "denom": "alpha",
+              "exponent": 6,
+              "aliases": [
+                "gram"
+              ]
+            }
+          ],
+          "base": "ualpha",
+          "display": "alpha",
+          "name": "alpha",
+          "symbol": "ALPHA",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
       "send_enabled": []
     },
     "capability": {
@@ -1074,7 +1285,7 @@
             "tip": null
           },
           "signatures": [
-            "dKvM7DBZslxI8dRuNXt1kEsU4RrbA6Cu3G6NzUBbEYltvux2ZiNAO7ShQJqlpjVQf+NlvYrpygs8HmELEtKWkQ=="
+            "pSe/BTT9jR2oS1+7JEtEzecjGFUdOHl1S6bqShli4i4k3+U+XUDwZa6vlgXj5oTn8nA0QTcYTO5DdLtgqC19sQ=="
           ]
         }
       ]
@@ -1097,7 +1308,7 @@
         "expedited_min_deposit": [
           {
             "amount": "50000000",
-            "denom": "stake"
+            "denom": "ualpha"
           }
         ],
         "expedited_threshold": "0.667000000000000000",
@@ -1106,7 +1317,7 @@
         "min_deposit": [
           {
             "amount": "10000000",
-            "denom": "stake"
+            "denom": "ualpha"
           }
         ],
         "min_deposit_ratio": "0.010000000000000000",
