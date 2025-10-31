@@ -1,8 +1,8 @@
 {
   "app_name": "structsd",
-  "app_version": "0.7.0-beta",
-  "genesis_time": "2025-07-22T01:23:45.764812Z",
-  "chain_id": "structstestnet-102",
+  "app_version": "0.8.0-beta",
+  "genesis_time": "2025-10-31T01:23:45.764812Z",
+  "chain_id": "structstestnet-103",
   "initial_height": 1,
   "app_hash": null,
   "app_state": {
@@ -499,6 +499,13 @@
           "pub_key": null,
           "account_number": "68",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "structs1k659pw0vn3yczc03v7fstfjwk24vuyj2ygwjxm",
+          "pub_key": null,
+          "account_number": "69",
+          "sequence": "0"
         }
       ]
     },
@@ -899,6 +906,15 @@
           ]
         },
         {
+          "address": "structs1k659pw0vn3yczc03v7fstfjwk24vuyj2ygwjxm",
+          "coins": [
+            {
+              "denom": "ualpha",
+              "amount": "100000000"
+            }
+          ]
+        },
+        {
           "address": "structs1kl3ux496ahfetht0zz3dyvqeymhvnlft6zpqsl",
           "coins": [
             {
@@ -1136,7 +1152,7 @@
       "supply": [
         {
           "denom": "ualpha",
-          "amount": "17100000000"
+          "amount": "17200000000"
         }
       ],
       "denom_metadata": [
@@ -1145,7 +1161,7 @@
           "denom_units": [
             {
               "denom": "ualpha",
-              "exponent": 0,
+              "exponent": "0",
               "aliases": [
                 "microaalpha",
                 "microgram"
@@ -1153,7 +1169,7 @@
             },
             {
               "denom": "malpha",
-              "exponent": 3,
+              "exponent": "3",
               "aliases": [
                 "millialpha",
                 "milligram"
@@ -1161,7 +1177,7 @@
             },
             {
               "denom": "alpha",
-              "exponent": 6,
+              "exponent": "6",
               "aliases": [
                 "gram"
               ]
@@ -1171,11 +1187,9 @@
           "display": "alpha",
           "name": "alpha",
           "symbol": "ALPHA",
-          "uri": "",
-          "uri_hash": ""
+          "uri": "https://raw.githubusercontent.com/playstructs/structsd/refs/heads/master/assetlist.json"
         }
-      ],
-      "send_enabled": []
+      ]
     },
     "capability": {
       "index": "1",
@@ -1285,7 +1299,7 @@
             "tip": null
           },
           "signatures": [
-            "pSe/BTT9jR2oS1+7JEtEzecjGFUdOHl1S6bqShli4i4k3+U+XUDwZa6vlgXj5oTn8nA0QTcYTO5DdLtgqC19sQ=="
+            "jfklwtwWtwM0LrivoFhOZwKuKEramJNVJoLyxGV6/CsY3eHJhpiHOGmUKPV7OF409BOt5D5/DdLWi/xigUTQig=="
           ]
         }
       ]
@@ -1428,7 +1442,7 @@
         "max_entries": 7,
         "max_validators": 100,
         "min_commission_rate": "0.000000000000000000",
-        "unbonding_time": "614400s"
+        "unbonding_time": "345600s"
       },
       "redelegations": [],
       "unbonding_delegations": [],
