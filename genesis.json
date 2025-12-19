@@ -1,8 +1,8 @@
 {
   "app_name": "structsd",
-  "app_version": "0.8.0-beta",
-  "genesis_time": "2025-10-31T01:23:45.764812Z",
-  "chain_id": "structstestnet-103",
+  "app_version": "0.9.0-beta",
+  "genesis_time": "2025-12-18T01:23:45.764812Z",
+  "chain_id": "structstestnet-104",
   "initial_height": 1,
   "app_hash": null,
   "app_state": {
@@ -1299,7 +1299,7 @@
             "tip": null
           },
           "signatures": [
-            "jfklwtwWtwM0LrivoFhOZwKuKEramJNVJoLyxGV6/CsY3eHJhpiHOGmUKPV7OF409BOt5D5/DdLWi/xigUTQig=="
+            "FuyjRJQ+wdCtIV4cvJTlERkFUstOcSzs3o28i6w19Hw9Dj6LFtgoqztQONY+dNM2TPQPqrgrB8ASCGlOyOgeHg=="
           ]
         }
       ]
