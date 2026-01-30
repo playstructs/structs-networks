@@ -2445,56 +2445,6 @@
       ],
       "send_enabled": []
     },
-    "capability": {
-      "index": "4",
-      "owners": [
-        {
-          "index": "1",
-          "index_owners": {
-            "owners": [
-              {
-                "module": "ibc",
-                "name": "ports/transfer"
-              },
-              {
-                "module": "transfer",
-                "name": "ports/transfer"
-              }
-            ]
-          }
-        },
-        {
-          "index": "2",
-          "index_owners": {
-            "owners": [
-              {
-                "module": "ibc",
-                "name": "ports/icahost"
-              },
-              {
-                "module": "icahost",
-                "name": "ports/icahost"
-              }
-            ]
-          }
-        },
-        {
-          "index": "3",
-          "index_owners": {
-            "owners": [
-              {
-                "module": "ibc",
-                "name": "ports/structs"
-              },
-              {
-                "module": "structs",
-                "name": "ports/structs"
-              }
-            ]
-          }
-        }
-      ]
-    },
     "circuit": {
       "account_permissions": [],
       "disabled_type_urls": []
@@ -2807,13 +2757,6 @@
     "feegrant": {
       "allowances": []
     },
-    "feeibc": {
-      "identified_fees": [],
-      "fee_enabled_channels": [],
-      "registered_payees": [],
-      "registered_counterparty_payees": [],
-      "forward_relayers": []
-    },
     "genutil": {
       "gen_txs": []
     },
@@ -2864,99 +2807,6 @@
       "proposal_seq": "0",
       "proposals": [],
       "votes": []
-    },
-    "ibc": {
-      "client_genesis": {
-        "clients": [
-          {
-            "client_id": "09-localhost",
-            "client_state": {
-              "@type": "/ibc.lightclients.localhost.v2.ClientState",
-              "latest_height": {
-                "revision_number": "106",
-                "revision_height": "170983"
-              }
-            }
-          }
-        ],
-        "clients_consensus": [],
-        "clients_metadata": [],
-        "params": {
-          "allowed_clients": [
-            "06-solomachine",
-            "07-tendermint",
-            "09-localhost"
-          ]
-        },
-        "create_localhost": false,
-        "next_client_sequence": "0"
-      },
-      "connection_genesis": {
-        "connections": [
-          {
-            "id": "connection-localhost",
-            "client_id": "09-localhost",
-            "versions": [
-              {
-                "identifier": "1",
-                "features": [
-                  "ORDER_ORDERED",
-                  "ORDER_UNORDERED"
-                ]
-              }
-            ],
-            "state": "STATE_OPEN",
-            "counterparty": {
-              "client_id": "09-localhost",
-              "connection_id": "connection-localhost",
-              "prefix": {
-                "key_prefix": "aWJj"
-              }
-            },
-            "delay_period": "0"
-          }
-        ],
-        "client_connection_paths": [],
-        "next_connection_sequence": "0",
-        "params": {
-          "max_expected_time_per_block": "30000000000"
-        }
-      },
-      "channel_genesis": {
-        "channels": [],
-        "acknowledgements": [],
-        "commitments": [],
-        "receipts": [],
-        "send_sequences": [],
-        "recv_sequences": [],
-        "ack_sequences": [],
-        "next_channel_sequence": "0"
-      }
-    },
-    "interchainaccounts": {
-      "controller_genesis_state": {
-        "active_channels": [],
-        "interchain_accounts": [],
-        "ports": [],
-        "params": {
-          "controller_enabled": true
-        }
-      },
-      "host_genesis_state": {
-        "active_channels": [],
-        "interchain_accounts": [],
-        "port": "icahost",
-        "params": {
-          "host_enabled": true,
-          "allow_messages": [
-            "*"
-          ]
-        }
-      }
-    },
-    "nft": {
-      "classes": [],
-      "entries": []
     },
     "slashing": {
       "params": {
@@ -72847,15 +72697,6 @@
           "commandStruct": "5-389"
         }
       ]
-    },
-    "transfer": {
-      "port_id": "transfer",
-      "denom_traces": [],
-      "params": {
-        "send_enabled": true,
-        "receive_enabled": true
-      },
-      "total_escrowed": []
     },
     "upgrade": {},
     "vesting": {}
