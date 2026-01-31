@@ -3,9 +3,11 @@
   "app_version": "0.11.0-beta",
   "genesis_time": "2026-01-29T12:34:56.764812Z",
   "chain_id": "structstestnet-107",
-  "initial_height": 0,
+  "initial_height": 1,
   "app_hash": null,
   "app_state": {
+    "06-solomachine": null,
+    "07-tendermint": null,
     "auth": {
       "params": {
         "max_memo_characters": "256",
@@ -2449,6 +2451,7 @@
       "account_permissions": [],
       "disabled_type_urls": []
     },
+    "consensus": null,
     "crisis": {
       "constant_fee": {
         "denom": "ualpha",
@@ -2808,6 +2811,75 @@
       "proposals": [],
       "votes": []
     },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "*"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      },
+      "client_v2_genesis": {
+        "counterparty_infos": []
+      },
+      "channel_v2_genesis": {
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "async_packets": [],
+        "send_sequences": []
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "*"
+          ]
+        }
+      }
+    },
+    "nft": {
+      "classes": [],
+      "entries": []
+    },
+    "params": null,
+    "runtime": null,
     "slashing": {
       "params": {
         "signed_blocks_window": "35000",
@@ -72698,66 +72770,19 @@
         }
       ]
     },
+    "transfer": {
+      "port_id": "transfer",
+      "denoms": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
     "upgrade": {},
     "vesting": {}
   },
   "consensus": {
-    "validators": [
-      {
-        "address": "4FD0816436560F5332E11F1E9508760C79CFB251",
-        "pub_key": {
-          "type": "tendermint/PubKeyEd25519",
-          "value": "C4R9mLE65oOa30Jnx7HI5/YqLxtJD04TeqgZ1DypzcQ="
-        },
-        "power": "398",
-        "name": "LuckyStar"
-      },
-      {
-        "address": "3828EDC6138D8EB2DADD5135F9F41AFA1F6F370E",
-        "pub_key": {
-          "type": "tendermint/PubKeyEd25519",
-          "value": "CHcfx6ObPXZGMgm8tA+ZN3+gTjyoFqEKTin9BFgVR4E="
-        },
-        "power": "100",
-        "name": "Imperial One"
-      },
-      {
-        "address": "3FE2065C22973308821B7E3534C1611288DFB3B5",
-        "pub_key": {
-          "type": "tendermint/PubKeyEd25519",
-          "value": "/Ry1HMjnDW+YCjWJ636yLa+/sOfatFlPaMmapNmmem8="
-        },
-        "power": "399",
-        "name": "ChainTools"
-      },
-      {
-        "address": "C4A08B6D8CD79C0D7DBBA791728345D8B22AEBC1",
-        "pub_key": {
-          "type": "tendermint/PubKeyEd25519",
-          "value": "PDiZBCx4Tg9m8dYz268yHmdE6Y4DY56tguFOrXiUF5M="
-        },
-        "power": "963",
-        "name": "Orbital Hydro"
-      },
-      {
-        "address": "7975D5C02F3C2088AB6733F305DDEA0C6442291F",
-        "pub_key": {
-          "type": "tendermint/PubKeyEd25519",
-          "value": "xo7h/g1P8uE4DTTCPPnree0yoNTPMzEHsXzQlvuOqUc="
-        },
-        "power": "399",
-        "name": "Moonbridge"
-      },
-      {
-        "address": "06E2699E48802797EC432D18907F67A801971D92",
-        "pub_key": {
-          "type": "tendermint/PubKeyEd25519",
-          "value": "RcOasHLBr76fYPe+l64Eif0hztR9XTLv4jzXP516D54="
-        },
-        "power": "199",
-        "name": "Galacticos"
-      }
-    ],
     "params": {
       "block": {
         "max_bytes": "22020096",
