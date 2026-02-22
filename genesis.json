@@ -1,8 +1,8 @@
 {
   "app_name": "structsd",
-  "app_version": "0.12.0-beta",
-  "genesis_time": "2026-02-19T12:34:56.764812Z",
-  "chain_id": "structstestnet-108",
+  "app_version": "0.13.0-beta",
+  "genesis_time": "2026-02-22T12:34:56.764812Z",
+  "chain_id": "structstestnet-109",
   "initial_height": 0,
   "app_hash": null,
   "app_state": {
